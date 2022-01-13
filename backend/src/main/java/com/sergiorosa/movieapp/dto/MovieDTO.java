@@ -1,6 +1,12 @@
 package com.sergiorosa.movieapp.dto;
 
+import java.util.HashSet;
+import java.util.Set;
+
+import javax.persistence.OneToMany;
+
 import com.sergiorosa.movieapp.entities.Movie;
+import com.sergiorosa.movieapp.entities.Score;
 
 public class MovieDTO {
 	
@@ -9,6 +15,7 @@ public class MovieDTO {
 	private Double score;
 	private Integer count;
 	private String image;
+	
 	
 	public MovieDTO() {
 		
@@ -69,5 +76,5 @@ public class MovieDTO {
 
 	public void setImage(String image) {
 		this.image = image;
-	}	
+	}
 }

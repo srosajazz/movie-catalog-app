@@ -24,7 +24,7 @@ public class MovieController {
 		return service.findAll(pageable);	
 	}
 	
-//	Get one page - by ID
+//	Get page - by ID
 	@GetMapping(value = "/{id}")
 	public MovieDTO findById(@PathVariable Long id){
 		return service.findById(id);	
