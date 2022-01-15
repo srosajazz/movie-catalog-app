@@ -38,8 +38,8 @@ function FormCard({ movieId }: Props) {
     event.preventDefault()
 
     //prevent form to submit
-    const email = (event.target as any).email.value
-    const score = (event.target as any).score.value
+    const email = (event.target as any).email.value;
+    const score = (event.target as any).score.value;
 
     // console.log(email,score);
 
